@@ -1,0 +1,2 @@
+import Link from 'next/link'; import {siteConfig} from '@/lib/siteConfig';
+export default function FinalCTA(){return <section id="contato" className="final"><p className="eyebrow">TOQ DE VENUS</p><h2>Seu momento<br/><i>merece um lugar.</i></h2>{siteConfig.whatsapp?<a className="cta" href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent('Olá! Gostaria de conhecer o Toq de Venus.')}`}>AGENDAR ↗</a>:<span className="cta disabled">WHATSAPP EM CONFIGURAÇÃO</span>}<Link href="/" className="back">VOLTAR AO INÍCIO ↑</Link></section>}

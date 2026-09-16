@@ -1,0 +1,2 @@
+'use client'; import {useState} from 'react';
+export default function AtmosphereSection(){const [error,setError]=useState(false);return <section className="atmosphere"><div className="atmoMedia">{!error?<video autoPlay muted loop playsInline poster="/images/ambiente1.jpg" onError={()=>setError(true)}><source src="/videos/vidambiente.mp4" type="video/mp4"/></video>:<div className="atmoFallback"/>}</div><div className="atmoCopy"><p className="eyebrow">ATMOSFERA</p><h2>Um espaço pensado<br/>para <i>desacelerar.</i></h2></div></section>}

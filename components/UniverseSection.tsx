@@ -1,1 +1,1 @@
-
+export default function UniverseSection(){return <section className="universe"><p className="eyebrow">UM UNIVERSO PARTICULAR</p><div className="word w1">SIGILO</div><div className="word w2">PRIVACIDADE</div><div className="word w3">CUIDADO</div><div className="word w4">PRESENÇA</div><div className="word w5">TOQUE</div></section>}

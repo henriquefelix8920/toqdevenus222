@@ -1,0 +1,1 @@
+import {siteConfig} from '@/lib/siteConfig'; export default function WhatsAppButton(){if(!siteConfig.whatsapp)return null;return <a className="whatsapp" href={`https://wa.me/${siteConfig.whatsapp}`} aria-label="Abrir WhatsApp">WA</a>}

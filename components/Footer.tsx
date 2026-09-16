@@ -1,0 +1,1 @@
+import {siteConfig} from '@/lib/siteConfig'; export default function Footer(){return <footer><div className="brand">TOQ <span>DE VENUS</span></div><div>{siteConfig.instagram?<a href={siteConfig.instagram}>INSTAGRAM</a>:<span>INSTAGRAM · EM CONFIGURAÇÃO</span>}</div><small>© {new Date().getFullYear()} Toq de Venus</small></footer>}
