@@ -1,1 +1,1 @@
-
+export const siteConfig={name:'Toq de Venus', instagram:'', whatsapp:'', logo:'/images/logo.png', heroVideo:'/videos/vidhero.mp4', atmosphereVideo:'/videos/vidambiente.mp4', ambientVideo:'/videos/vidatmosfera.mp4'};
